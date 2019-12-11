@@ -1,5 +1,6 @@
 package com.restaurant.fatih;
 
+<<<<<<< HEAD
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DefaultItemAnimator;
@@ -29,11 +30,25 @@ public class DashboardActivity extends AppCompatActivity {
     ProgressDialog progressDialog;
     Session session;
     SearchView svRestaurant;
+=======
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
+import com.restaurant.fatih.data.Session;
+
+public class DashboardActivity extends AppCompatActivity {
+    Button logOut;
+    Session session;
+>>>>>>> e506f76e44bd22024352f044192ee86ea36aa82e
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
         session = new Session(this);
+<<<<<<< HEAD
         progressDialog = new ProgressDialog(this);
         initView();
         initRecyclerView();
@@ -120,6 +135,19 @@ public class DashboardActivity extends AppCompatActivity {
                 progressDialog.dismiss();
                 Toast.makeText(DashboardActivity.this, "Failed to fetch
                         data", Toast.LENGTH_SHORT).show();
+=======
+        initBinding();
+        initButton();
+    }
+    private void initBinding (){
+        logOut = findViewById(R.id.btn_logout);
+    }
+    private void initButton (){
+        logOut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                session.logoutUser();
+>>>>>>> e506f76e44bd22024352f044192ee86ea36aa82e
             }
         });
     }
