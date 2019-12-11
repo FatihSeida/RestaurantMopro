@@ -17,6 +17,8 @@ import android.widget.SearchView;
 import android.widget.Toast;
 
 import com.androidnetworking.AndroidNetworking;
+import com.androidnetworking.error.ANError;
+import com.androidnetworking.interfaces.ParsedRequestListener;
 import com.restaurant.fatih.adapter.RestaurantAdapter;
 import com.restaurant.fatih.data.Session;
 import com.restaurant.fatih.model.ListRestaurantResponse;
@@ -42,13 +44,11 @@ import com.restaurant.fatih.data.Session;
 public class DashboardActivity extends AppCompatActivity {
     Button logOut;
     Session session;
->>>>>>> e506f76e44bd22024352f044192ee86ea36aa82e
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
         session = new Session(this);
-<<<<<<< HEAD
         progressDialog = new ProgressDialog(this);
         initView();
         initRecyclerView();
@@ -92,6 +92,9 @@ public class DashboardActivity extends AppCompatActivity {
             case R.id.menu_logout:
                 session.logoutUser();
                 break;
+            case R.id.menu_account:
+                startActivity(new Inten(DashboardActivity.this, ProfileActivity.class));
+                break;
         }
         return true;
     }
@@ -115,7 +118,7 @@ public class DashboardActivity extends AppCompatActivity {
     }
     //Method untuk load data dari api
     public void loadItem(String url){
-//show progress dialog
+        //show progress dialog
         progressDialog.setMessage("Please Wait..");
         progressDialog.show();
         AndroidNetworking.get(url).build().getAsObject(ListRestaurantResponse.class, new ParsedRequestListener() {
@@ -133,22 +136,22 @@ public class DashboardActivity extends AppCompatActivity {
             @Override
             public void onError(ANError anError) {
                 progressDialog.dismiss();
-                Toast.makeText(DashboardActivity.this, "Failed to fetch
-                        data", Toast.LENGTH_SHORT).show();
-=======
-        initBinding();
-        initButton();
-    }
-    private void initBinding (){
+                Toast.makeText(DashboardActivity.this, "Failed to fetch data", Toast.LENGTH_SHORT).show();
+                initBinding();
+                initButton();
+            }
+        private void initBinding (){
         logOut = findViewById(R.id.btn_logout);
     }
-    private void initButton (){
-        logOut.setOnClickListener(new View.OnClickListener() {
-            @Override
+        private void initButton ({
+            logOut.setOnClickListener(new View.OnClickListener(){
+                @Override
+            });
             public void onClick(View v) {
                 session.logoutUser();
->>>>>>> e506f76e44bd22024352f044192ee86ea36aa82e
             }
+        }
         });
     }
+}
 }

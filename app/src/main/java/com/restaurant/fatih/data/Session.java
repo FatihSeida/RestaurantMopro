@@ -58,8 +58,15 @@ public class Session {
     public boolean isLoggedIn() {
         return pref.getBoolean(IS_LOGIN, false);
     }
+    public String getUserId() {
+        return pref.getString(USER_ID,"no_id");
+    }
     public void setIsLogin(Boolean v) {
         editor.putBoolean(IS_LOGIN, v);
+        editor.commit();
+    }
+    public void setUserId(String v) {
+        editor.putString(USER_ID, v);
         editor.commit();
     }
 }

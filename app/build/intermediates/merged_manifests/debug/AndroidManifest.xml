@@ -18,6 +18,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.restaurant.fatih.ProfileActivity" />
+        <activity android:name="com.restaurant.fatih.ChangePasswordActivity" />
         <activity android:name="com.restaurant.fatih.DashboardActivity" >
             <activity android:name="com.restaurant.fatih.auth.RegisterActivity" />
             <activity android:name="com.restaurant.fatih.auth.LoginActivity" />
