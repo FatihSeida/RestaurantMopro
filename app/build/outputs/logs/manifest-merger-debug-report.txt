@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [com.karumi:dexter:5.0.0] C:\Users\MUL023\.gradle\caches\transforms-2\files-2.1\f2478119de539de8daa763bc814c5851\jetified-dexter-5.0.0\AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\MUL023\.gradle\caches\transforms-2\files-2.1\12f5fefd267a516b087649cc29b8b339\material-1.2.0-alpha02\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\MUL023\.gradle\caches\transforms-2\files-2.1\f64c8351ef0c9a7a800019d28185706c\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -35,25 +35,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\MUL023\.gradle\c
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\MUL023\.gradle\caches\transforms-2\files-2.1\df65787e67fe4b4bc0635deed9695797\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\MUL023\.gradle\caches\transforms-2\files-2.1\a1f5477cd6fd5fad9baa3e263bec7d60\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\MUL023\.gradle\caches\transforms-2\files-2.1\60b50828def4ba3859898ffb4c971c21\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml
 		INJECTED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml
-		ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml
-		ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:5:5-25:19
+ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:5:5-23:19
 MERGED from [com.karumi:dexter:5.0.0] C:\Users\MUL023\.gradle\caches\transforms-2\files-2.1\f2478119de539de8daa763bc814c5851\jetified-dexter-5.0.0\AndroidManifest.xml:26:5-30:19
 MERGED from [com.karumi:dexter:5.0.0] C:\Users\MUL023\.gradle\caches\transforms-2\files-2.1\f2478119de539de8daa763bc814c5851\jetified-dexter-5.0.0\AndroidManifest.xml:26:5-30:19
 MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\MUL023\.gradle\caches\transforms-2\files-2.1\12f5fefd267a516b087649cc29b8b339\material-1.2.0-alpha02\AndroidManifest.xml:22:5-20
@@ -85,7 +85,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\MU
 	android:usesCleartextTraffic
 		ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:12:9-44
 activity#com.restaurant.fatih.ProfileActivity
-ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:13:9-62
+ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:13:9-52
 	android:name
 		ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:13:19-50
 activity#com.restaurant.fatih.ChangePasswordActivity
@@ -93,27 +93,27 @@ ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:14:9-60
 	android:name
 		ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:14:19-57
 activity#com.restaurant.fatih.DashboardActivity
-ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:15:9-24:20
+ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:15:9-54
 	android:name
 		ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:15:19-52
 activity#com.restaurant.fatih.auth.RegisterActivity
-ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:16:13-63
+ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:16:9-59
 	android:name
-		ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:16:23-60
+		ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:16:19-56
 activity#com.restaurant.fatih.auth.LoginActivity
-ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:17:13-60
+ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:17:9-22:20
 	android:name
-		ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:17:23-57
+		ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:17:19-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:18:13-21:29
 action#android.intent.action.MAIN
-ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml:20:27-74
 uses-sdk
 INJECTED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\RestaurantMopro-master\app\src\main\AndroidManifest.xml

@@ -18,6 +18,7 @@ public class Session {
 
     private static final String PREF_NAME = "restoMobpro";
     private static final String IS_LOGIN = "IsLoged";
+    private static final String USER_ID = "userId";
     private static final String IS_NOT_ALARMT = "IsAlarm";
 
     public Session(Context context){

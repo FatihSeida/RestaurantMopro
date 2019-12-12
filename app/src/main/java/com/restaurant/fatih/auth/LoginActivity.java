@@ -70,13 +70,9 @@ public class LoginActivity extends AppCompatActivity {
     public void login() {
         DialogUtils.openDialog(this);
         AndroidNetworking.post(LOGIN)
-                .addBodyParameter("userid",
-                        email.getText().toString())
-                .addBodyParameter("password",
-                        password.getText().toString())
-                .build()
-                .getAsObject(LoginResponse.class, new
-                        ParsedRequestListener() {
+                .addBodyParameter("userid", email.getText().toString())
+                .addBodyParameter("password", password.getText().toString())
+                .build().getAsObject(LoginResponse.class, new ParsedRequestListener() {
                             @Override
                             public void onResponse(Object response) {
                                 if (response instanceof LoginResponse) {
@@ -95,7 +91,7 @@ public class LoginActivity extends AppCompatActivity {
                             @Override
                             public void onError(ANError anError) {
                                 Toast.makeText(LoginActivity.this, "Terjadi kesalahan API", Toast.LENGTH_SHORT).show();
-                                        Toast.makeText(LoginActivity.this, "Terjadi kesalahan API : "+anError.getCause().toString(),
+                                Toast.makeText(LoginActivity.this, "Terjadi kesalahan API : "+anError.getCause().toString(),
                                 Toast.LENGTH_SHORT).show();
                                 DialogUtils.closeDialog();
                             }
